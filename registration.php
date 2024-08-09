@@ -7,6 +7,13 @@
 </head>
 <body>
     <h1>Registration</h1>
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="calculation.php">Calculation</a></li>
+            <li><a href="registration.php">Registration</a></li>
+        </ul>
+    </nav>
     <form action="welcome.php" method="post">
         <label for="fullname">Full Name:</label>
         <input type="text" name="fullname" id="fullname" required><br><br>

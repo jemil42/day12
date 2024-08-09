@@ -7,6 +7,13 @@
 </head>
 <body>
     <h1>Calculation</h1>
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="calculation.php">Calculation</a></li>
+            <li><a href="registration.php">Registration</a></li>
+        </ul>
+    </nav>
     <form method="post">
         <label for="num1">Number 1:</label>
         <input type="number" name="num1" id="num1" required>

@@ -7,6 +7,13 @@
 </head>
 <body>
     <h1>Welcome</h1>
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="calculation.php">Calculation</a></li>
+            <li><a href="registration.php">Registration</a></li>
+        </ul>
+    </nav>
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $fullname = $_POST['fullname'];
